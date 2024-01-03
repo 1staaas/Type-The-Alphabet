@@ -1,0 +1,105 @@
+body {
+    background-color: #011627;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main {
+    display: block;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+.containerLetter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+
+.showLetter {
+    height: 200px;
+    width: 200px;
+    background-color: #021d33;
+    border-radius: 15px;
+}
+
+#elementInput {
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    font-size: 70px;
+}
+
+.inputContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#letter {
+    width: 80%;
+    height: 30px;
+    background-color: #5083AD;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+}
+
+#letter:focus {
+    outline: none;
+}
+
+.stopwatchContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.stopwatch {
+    margin-top: 50px;
+    color: white;
+    font-size: 60px;
+}
+
+.result {
+    margin-top: 50px;
+    display: none;
+    color: white;
+}
+
+.timeText,
+.time {
+    text-align: center;
+}
+
+.time {
+    font-size: 70px;
+}
+
+.resetBtnContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.resetBtn {
+    width: 150px;
+    height: 100px;
+    background-color: #5083AD;
+    color: white;
+    border: 0;
+    font-size: 20px;
+    border-radius: 5px;
+
+}
+
+.resetBtn:hover {
+    background-color: #12446d;
+}
+
+
